@@ -28,7 +28,7 @@ INSTALLATION
 Navigate to the directory you are using, and write:
 
 ```
-pip install pdgen
+pip install pssdgen
 
 ```
 
@@ -48,9 +48,9 @@ Use special characters (If yes - 1, otherwise 2 ).
 EXAMPLE #1
 ```
 
-pip install pdgen
+pip install pssdgen
 python
->>from pdgen import password_generation
+>>from pssdgen import password_generation
 >>password_generation(1,1,1,25)
 g&#.ykuxZQf@7vg?fj?KyfZ6@
 
@@ -63,9 +63,9 @@ EXAMPLE #2
 
 
 ```
-pip install pdgen
+pip install pssdgen
 python
->>from pdgen import password_generation
+>>from pssdgen import password_generation
 >>password_generation(2,1,2,25)
 eGzeNPFEz
 ```
@@ -98,7 +98,7 @@ RU
 --
 Перейдите в используемую директорию, и напишите:
 ```
-pip install pdgen
+pip install pssdgen
 
 ```
 
@@ -116,9 +116,9 @@ pip install pdgen
 
 ПРИМЕР №1
 ```
-pip install pdgen
+pip install pssdgen
 python
->>from pdgen import password_generation
+>>from pssdgen import password_generation
 >>password_generation(1,1,1,25)
 g&#.ykuxZQf@7vg?fj?KyfZ6@
 
@@ -130,9 +130,9 @@ g&#.ykuxZQf@7vg?fj?KyfZ6@
 ---
 
 ```
-pip install pdgen
+pip install pssdgen
 python
->>from pdgen import password_generation
+>>from pssdgen import password_generation
 >>password_generation(2,1,2,25)
 eGzeNPFEz
 ```
