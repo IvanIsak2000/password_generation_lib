@@ -6,7 +6,7 @@ def password_generation(
         adding_digits,
         adding_letters,
         adding_special_characters,
-        user_password_length) -> bool:
+        user_password_length) -> str:
  
     if not any((adding_digits, adding_letters, adding_special_characters)):
         raise Exception("Error!")
