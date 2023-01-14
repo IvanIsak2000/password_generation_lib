@@ -33,10 +33,12 @@ USAGE HOWTO
 To generate a password, simply import the library and call the `password_generation()` function
 
 NOTE that the function accepts 4 variables:`
-1. whether to use numbers (If yes, True ).
-2. Whether to use letters (If yes - True ).
-Whether to use special characters (If yes - True ).
-4. The length of the password to be generated (unlimited ).
+1. whether to use numbers (If yes -  True, otherwise False ).
+2. Whether to use letters (If yes - True, otherwise False ).
+3. Whether to use special characters (If yes - True, otherwise False ).
+4. The length of the password to be generated (enter an integer, unlimited ).
+![image](https://user-images.githubusercontent.com/79650307/212470755-2f9c1009-31bc-4a67-b557-237aea0e2133.png)
+
 
 
 EXAMPLE #1
@@ -105,10 +107,12 @@ pip install genp
 Для того чтобы сгенерировать пароль, достаточно импортировать библиотеку и вызвать функцию `password_generation()`
 
 `УЧТИТЕ, что функция принимает 4 переменные:`
-1. Использовать ли цифры (Если да - True ).
-2. Использовать ли буквы (Если да - True  ).
-3. Использовать ли специальные символы (Если да - True ).
-4. Длина генерируемого пароля (неограниченно )
+1. Использовать ли цифры (Если да - True, иначе False ).
+2. Использовать ли буквы (Если да - True, иначе False  ).
+3. Использовать ли специальные символы (Если да - True, иначе False ).
+4. Длина генерируемого пароля (указать цифру,неограниченно )
+![image](https://user-images.githubusercontent.com/79650307/212470789-c8e2a41e-8fd6-4371-a2fc-ace6be611c01.png)
+
 
 
 ПРИМЕР №1
